@@ -7,7 +7,7 @@ Endpoints descriptions for user
 | GET | `/users/{login}` | Get user with login |
 
 
-##Technologies
+## Technologies
 * Java 17
 * Spring Boot 
 * Postgresql
