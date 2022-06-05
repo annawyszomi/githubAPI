@@ -13,9 +13,9 @@ class UserResponseTest extends Specification {
 
         where:
         followers | publicRepos | calculations
-        5628      | 8      | 0.010660980810234541
-        101       | 60     | 3.683168316831683
-        96        | 21     | 1.4375
+        5628      | 8           | 0.010660980810234541
+        101       | 60          | 3.683168316831683
+        96        | 21          | 1.4375
 
     }
 }

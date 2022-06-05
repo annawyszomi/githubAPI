@@ -14,7 +14,7 @@ class UserServiceTest extends Specification {
     @Subject
     ApiResponder sut
 
-    def 'should return user from api'(){
+    def 'should return user from api'() {
         given:
         restTemplate.getForObject(_, _) >> new User(name: 'kitten')
 

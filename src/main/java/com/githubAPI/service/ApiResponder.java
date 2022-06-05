@@ -20,7 +20,7 @@ public class ApiResponder {
 
     public User getUser(String login) {
 
-        String url = uriUsers + login;
+        var url = uriUsers + login;
         User user = null;
         try {
             user = restTemplate.getForObject(url, User.class);

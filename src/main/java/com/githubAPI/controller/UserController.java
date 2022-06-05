@@ -24,7 +24,7 @@ public class UserController {
     @Transactional
     public ResponseEntity<UserResponse> getUser(@PathVariable String login) {
 
-        User user = responder.getUser(login);
+        var user = responder.getUser(login);
         if (user == null) {
             return ResponseEntity.notFound().build();
         } else {
